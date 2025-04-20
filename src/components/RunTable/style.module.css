@@ -22,11 +22,12 @@
   width: 100%;
   font-variant: tabular-nums;
   margin: 2rem 0 5rem 0;
-  color: rgb(204, 204, 204);
-  background-color: rgb(26, 26, 26);
+  color: #2aa198;
+  background-color: #fdf6e3;
+  /* background-color: #eee8d5; */
 
   :is(thead) {
-    color: rgb(204, 204, 204);
+    color: #2aa198;
     text-align: right;
 
     :is(th) {
@@ -49,7 +50,8 @@
   }
 
   &:hover {
-    background-color: lighten(rgb(26, 26, 26), 3%);
+    /* background-color: lighten(#eee8d5, 3%); */
+    background-color: #fdf6e3;
   }
 }
 
@@ -63,5 +65,5 @@
 }
 
 .runDate {
-  color: rgb(204, 204, 204);
+  color: #2aa198;
 }

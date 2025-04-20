@@ -124,19 +124,22 @@ const ActivityCard: React.FC<ActivityCardProps> = ({ period, summary, dailyDista
                         <ResponsiveContainer>
                             <BarChart data={data} margin={{ top: 20, right: 20, left: -20, bottom: 5 }}>
                                 <CartesianGrid strokeDasharray="3 3" stroke="#444" />
-                                <XAxis dataKey="day" tick={{ fill: 'rgb(204, 204, 204)' }} />
+                                <XAxis dataKey="day" tick={{ fill: '#2aa198' }} />
+                                {/* <XAxis dataKey="day" tick={{ fill: '#2aa198' }} /> */}
                                 <YAxis
-                                    label={{ value: 'km', angle: -90, position: 'insideLeft', fill: 'rgb(204, 204, 204)' }}
+                                    label={{ value: 'km', angle: -90, position: 'insideLeft', fill: '#2aa198' }}
                                     domain={[0, yAxisMax]}
                                     ticks={yAxisTicks}
-                                    tick={{ fill: 'rgb(204, 204, 204)' }}
+                                    tick={{ fill: '#2aa198' }}
                                 />
                                 <Tooltip
                                     formatter={(value) => `${value} km`}
-                                    contentStyle={{ backgroundColor: 'rgb(36, 36, 36)', border: '1px solid #444', color: 'rgb(204, 204, 204)' }}
-                                    labelStyle={{ color: 'rgb(0, 237, 94)' }}
+                                    contentStyle={{ backgroundColor: '#eee8d5', border: '1px solid #444', color: '#2aa198' }}
+                                    // labelStyle={{ color: 'rgb(0, 237, 94)' }}
+                                    labelStyle={{ color: '#2aa198'}}
                                 />
-                                <Bar dataKey="distance" fill="rgb(0, 237, 94)" />
+                                <Bar dataKey="distance" fill="#2aa198" />
+                                {/* <Bar dataKey="distance" fill="rgb(0, 237, 94)" /> */}
                             </BarChart>
                         </ResponsiveContainer>
                     </div>

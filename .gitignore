@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 node_modules
 run
+FIT_OUT_local_backup

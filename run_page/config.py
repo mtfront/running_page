@@ -25,7 +25,7 @@ NAME_MAPPING_FILE = os.path.join(FIT_FOLDER, "name_mapping.json")
 # TODO: Move into nike_sync NRC THINGS
 
 
-BASE_TIMEZONE = "Asia/Shanghai"
+BASE_TIMEZONE = "America/Los_Angeles"
 UTC_TIMEZONE = "UTC"
 
 start_point = namedtuple("start_point", "lat lon")

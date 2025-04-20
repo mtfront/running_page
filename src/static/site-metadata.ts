@@ -16,9 +16,9 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Workouts Map',
-  siteUrl: 'https://ben29.xyz',
-  logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
+  siteTitle: "Mtfront's steps",
+  siteUrl: 'https://steps.douchi.space',
+  logo: 'https://media.douchi.space/douchi/accounts/avatars/000/000/001/original/40c89c24d6524a14.gif',
   description: 'Personal site and blog',
   keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
   navLinks: [
@@ -28,7 +28,7 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'Blog',
-      url: 'https://ben29.xyz',
+      url: 'https://blog.douchi.space/?utm_source=steps',
     },
     {
       name: 'About',

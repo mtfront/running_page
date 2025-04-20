@@ -11,16 +11,18 @@ const YearsStat = ({ year, onClick, onClickTypeInYear }: { year: string, onClick
   yearsArrayUpdate = yearsArrayUpdate.filter((x) => x !== year);
   yearsArrayUpdate.unshift(year);
 
+  console.log("year" + year);
   // for short solution need to refactor
   return (
     <div className="w-full lg:w-full pb-16 pr-16 lg:pr-16">
-      <section className="pb-0">
+      {year == "Total" ? null :
+      (<section className="pb-0">
         <p className="leading-relaxed">
           {INFO_MESSAGE(years.length, year)}
           <br />
         </p>
-      </section>
-      <hr color="red" />
+        <hr color="red" />
+      </section> )}
       {yearsArrayUpdate.map((year) => (
         <YearStat key={year} year={year} onClick={onClick} onClickTypeInYear={onClickTypeInYear}/>
       ))}

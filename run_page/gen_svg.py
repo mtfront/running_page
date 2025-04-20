@@ -89,7 +89,7 @@ def main():
         dest="background_color",
         metavar="COLOR",
         type=str,
-        default="#222222",
+        default="#eee8d5",
         help='Background color of poster (default: "#222222").',
     )
     args_parser.add_argument(
@@ -97,7 +97,7 @@ def main():
         dest="track_color",
         metavar="COLOR",
         type=str,
-        default="#4DD2FF",
+        default="#2aa198",
         help='Color of tracks (default: "#4DD2FF").',
     )
     args_parser.add_argument(
@@ -112,7 +112,7 @@ def main():
         dest="text_color",
         metavar="COLOR",
         type=str,
-        default="#FFFFFF",
+        default="#657b83",
         help='Color of text (default: "#FFFFFF").',
     )
     args_parser.add_argument(

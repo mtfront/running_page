@@ -20,8 +20,8 @@ const LocationStat = ({
   changeType,
   onClickTypeInYear
 }: ILocationStatProps) => (
-  <div className="w-full pb-16 lg:w-full lg:pr-16">
-    <section className="pb-0">
+  <div className="w-full lg:w-full lg:pr-16">
+    {/* <section className="pb-0">
       <p className="leading-relaxed">
         {CHINESE_LOCATION_INFO_MESSAGE_FIRST}
         .
@@ -33,11 +33,11 @@ const LocationStat = ({
         Yesterday you said tomorrow.
       </p>
     </section>
-    <hr color="red" />
+    <hr color="red" /> */}
     <LocationSummary />
-    <CitiesStat onClick={changeCity} />
-    <PeriodStat onClick={changeType} />
-    <YearStat year="Total" onClick={changeYear} onClickTypeInYear={onClickTypeInYear}/>
+    {/* <CitiesStat onClick={changeCity} /> */}
+    {/* <PeriodStat onClick={changeType} /> */}
+    {/* <YearStat year="Total" onClick={changeYear} onClickTypeInYear={onClickTypeInYear}/> */}
   </div>
 );
 
