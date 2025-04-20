@@ -131,7 +131,7 @@ def format_float(f):
 
 def parse_datetime_to_local(start_time, end_time, point):
     if not point:
-        timezone = "Asia/Shanghai"
+        timezone = "America/Los_Angeles"
     else:
         # just parse the start time, because start/end maybe different
         offset = start_time.utcoffset()

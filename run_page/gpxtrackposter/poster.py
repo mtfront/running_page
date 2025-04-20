@@ -59,7 +59,7 @@ class Poster:
         self.tracks_drawer = None
         self.trans = None
         self.set_language(None)
-        self.tc_offset = datetime.now(pytz.timezone("Asia/Shanghai")).utcoffset()
+        self.tc_offset = datetime.now(pytz.timezone("America/Los_Angeles")).utcoffset()
         self.github_style = "align-firstday"
 
     def set_language(self, language):
