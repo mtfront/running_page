@@ -8801,7 +8801,7 @@
 },
 {
 "run_id": 1744850224000,
-"name": "",
+"name": "Seattle Walking",
 "distance": 1563.3,
 "moving_time": "0:53:50.059000",
 "type": "Hike",
@@ -8817,7 +8817,7 @@
 },
 {
 "run_id": 1744827143000,
-"name": "",
+"name": "Treadmill Running",
 "distance": 3218.69,
 "moving_time": "0:25:36.003000",
 "type": "Run",
@@ -8833,7 +8833,7 @@
 },
 {
 "run_id": 1744934894000,
-"name": "",
+"name": "Seattle Walking",
 "distance": 1535.92,
 "moving_time": "0:17:45.416000",
 "type": "Hike",
@@ -8849,7 +8849,7 @@
 },
 {
 "run_id": 1744935979000,
-"name": "",
+"name": "Seattle Running",
 "distance": 2487.84,
 "moving_time": "0:34:21.659000",
 "type": "Run",
@@ -8865,7 +8865,7 @@
 },
 {
 "run_id": 1744939564000,
-"name": "",
+"name": "Seattle Walking",
 "distance": 1652.22,
 "moving_time": "0:22:10.082000",
 "type": "Hike",
@@ -8881,7 +8881,7 @@
 },
 {
 "run_id": 1745028097000,
-"name": "",
+"name": "Treadmill Running",
 "distance": 3218.69,
 "moving_time": "0:25:25.749000",
 "type": "Run",
@@ -8897,7 +8897,7 @@
 },
 {
 "run_id": 1745089754000,
-"name": "",
+"name": "Treadmill Running",
 "distance": 3218.69,
 "moving_time": "0:25:03.519000",
 "type": "Run",

@@ -206,12 +206,13 @@ class Track:
             self.end_time_local = self.end_time
             self.run_id = gpx.tracks[0].number
         # determinate name
-        if gpx.name:
-            self.name = gpx.name
-        elif gpx.tracks[0].name:
-            self.name = gpx.tracks[0].name
-        else:
-            self.name = self.type + " from " + self.source
+        # This is maybe resetting the track.name instead of using activityName
+        # if gpx.name:
+        #     self.name = gpx.name
+        # elif gpx.tracks[0].name:
+        #     self.name = gpx.tracks[0].name
+        # else:
+        #     self.name = self.type + " from " + self.source
 
         for t in gpx.tracks:
             if self.track_name is None:
